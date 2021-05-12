@@ -1,0 +1,19 @@
+<app-navbar></app-navbar> <!--navBar barra de titulos onde se encontra meus clientes-->
+<div id="layoutSidenav"> 
+    <app-sidebar></app-sidebar> <!--sideBar menu vertical onde se encontra layouts pages-->
+    <div id="layoutSidenav_content">
+        <main>
+            <div class="container-fluid"><!--éuma classe bootStrap-->
+                <!--conteudo do sistema, pages de navegação-->
+                <!--indica nesse ponto vai ficar minhas rotas, rota home ja está feita-->>
+                <router-outlet></router-outlet><!--esse component so chama as rotas pelo fato de termos imports RouterModule está no arquivo app-routing-modules.ts-->
+            </div>
+            <app-rodape></app-rodape> <!--Rodapé-->
+                
+
+        </main>
+    </div>
+</div>
+
+
+

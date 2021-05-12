@@ -1,0 +1,45 @@
+<!--FORMULARIO DE CLIENTES--> 
+<h1 class="mt-4">Clientes</h1>
+<ol class="breadcrumb mb-4">
+    <li class="breadcrumb-item active">Cadastro</li>
+</ol>
+<div class="container"> <!--class bootStrap-->
+    <form>
+        <div class="row"> <!--class bootStrap q define uma linha com 12 colluns imaginario-->
+            <div class="col-md-6"> <!--nessa div vamos usar espaço 6 colluns-->
+                <div class="form-group">
+                    <label>ID:</label><!--temos desabilitar id e data de cadastro com disabled-"true"-->
+                    <input type="text" class="form-control" disabled=true /><!--class form-control deixa caixa texto responsivo, se adapta a tela-->
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label>Data Cadastro:</label>
+                    <input type="text" class="form-control" disabled="true" />
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label>Nome: *</label>
+                    <input type="text" class="form-control" />
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label>CPF: *</label>
+                    <input type="text" class="form-control" />
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2">
+                <button type="submit" class="btn btn-success">
+                    <i class="fa fa-save"></i> Salvar
+                </button>
+            </div>
+        </div>
+    </form>
+
+</div>
